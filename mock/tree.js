@@ -1,0 +1,500 @@
+const  data=[
+    {
+        name:'NBA总决赛',
+        value:6,
+        symbolSize:[90,70],
+        symbol:'image:',
+        itemStyle:{
+            normal:{
+                lable:{
+                    show:true,
+            }
+        }
+    }, 
+    children:[
+        {
+            name:'NBA西部决赛',
+            value:6,
+            symbolSize:[90,70],
+            symbol:'image:',
+            itemStyle:{
+                normal:{
+                    lable:{
+                        show:true,
+                }
+            }
+        },
+        children:[
+            {
+                name:'勇士',
+                value:4,
+                itemStyle:{
+                    normal:{
+                        lable:{
+                            show:true,
+                    }
+                }
+            },
+            symbolSize:[60,60],
+            children:[{
+                    name:'勇士',
+                    value:4,
+                    symbol:'circle',
+                    itemStyle:{
+                        normal:{
+                            color:'#fa6900',
+                            lable:{
+                                show:true,
+                                postition: 'right',
+                        }
+                    }
+                },
+                emphasis:{
+                    lable:{show:false},
+                    borderWith:0,
+                },
+                children:[{
+                    name:'勇士',
+                    value:4,
+                    symbol:'circle',
+                    itemStyle:{
+                        normal:{
+                            color:'#fa6900',
+                            lable:{
+                                show:true,
+                                postition: 'right',
+                        }
+                    }
+                },
+                emphasis:{
+                    lable:{show:false},
+                    borderWith:0,
+                },
+            },
+            {
+                name:'快船',
+                value:4,
+                symbol:'circle',
+                itemStyle:{
+                    normal:{
+                        color:'#fa6900',
+                        lable:{
+                            show:true,
+                            postition: 'right',
+                    }
+                }
+            },
+        }]
+    },
+        {
+            name:'火箭',
+            value:4,
+            symbol:'circle',
+            itemStyle:{
+                normal:{
+                    color:'#fa6900',
+                    lable:{
+                        show:true,
+                        postition: 'right',
+                }
+            }
+        },
+        emphasis:{
+            lable:{show:false},
+            borderWith:0,
+        },
+        children:[{
+            name:'火箭',
+            value:4,
+            symbol:'circle',
+            itemStyle:{
+                normal:{
+                    color:'#fa6900',
+                    lable:{
+                        show:true,
+                        postition: 'right',
+                }
+            }
+        },
+        emphasis:{
+            lable:{show:false},
+            borderWith:0,
+        },
+    },
+    {
+        name:'爵士',
+        value:4,
+        symbol:'circle',
+        itemStyle:{
+            normal:{
+                color:'#fa6900',
+                lable:{
+                    show:true,
+                    postition: 'right',
+            }
+        }
+    },
+}]
+}]
+},
+{
+name:'开拓者',
+value:4,
+itemStyle:{
+    normal:{
+        lable:{
+            show:true,
+    }
+}
+},
+symbolSize:[60,60],
+children:[{
+    name:'开拓者',
+    value:4,
+    symbol:'circle',
+    itemStyle:{
+        normal:{
+            color:'#fa6900',
+            lable:{
+                show:true,
+                postition: 'right',
+        }
+    }
+},
+emphasis:{
+    lable:{show:false},
+    borderWith:0,
+},
+children:[{
+    name:'开拓者',
+    value:4,
+    symbol:'circle',
+    itemStyle:{
+        normal:{
+            color:'#fa6900',
+            lable:{
+                show:true,
+                postition: 'right',
+        }
+    }
+},
+emphasis:{
+    lable:{show:false},
+    borderWith:0,
+},
+},
+{
+name:'雷霆',
+value:4,
+symbol:'circle',
+itemStyle:{
+    normal:{
+        color:'#fa6900',
+        lable:{
+            show:true,
+            postition: 'right',
+    }
+}
+},
+}]
+},
+{
+name:'掘金',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+    color:'#fa6900',
+    lable:{
+        show:true,
+        postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+children:[{
+name:'掘金',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+    color:'#fa6900',
+    lable:{
+        show:true,
+        postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+},
+{
+name:'马刺',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+    show:true,
+    postition: 'right',
+}
+}
+},
+}]
+}]
+}]
+},
+{
+name:'NBA东部决赛',
+value:3,
+symbolSize:[90,70],
+symbol:'image:',
+itemStyle:{
+normal:{
+lable:{
+show:true,
+}
+}
+},
+children:[
+{
+name:'雄鹿',
+value:2,
+itemStyle:{
+normal:{
+lable:{
+    show:true,
+}
+}
+},
+symbolSize:[60,60],
+children:[{
+name:'雄鹿',
+value:2,
+symbol:'circle',
+itemStyle:{
+normal:{
+    color:'#fa6900',
+    lable:{
+        show:true,
+        postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+children:[{
+name:'雄鹿',
+value: 2,
+symbol:'circle',
+itemStyle:{
+normal:{
+    color:'#fa6900',
+    lable:{
+        show:true,
+        postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+},
+{
+name:'活塞',
+value:2,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+    show:true,
+    postition: 'right',
+}
+}
+},
+}]
+},
+{
+name:'凯尔特人',
+value:2,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+children:[{
+name:'凯尔特人',
+value:2,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+},
+{
+name:'步行者',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+}]
+}]
+},
+{
+name:'猛龙',
+value:4,
+itemStyle:{
+normal:{
+lable:{
+show:true,
+}
+}
+},
+symbolSize:[60,60],
+children:[{
+name:'猛龙',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+children:[{
+name:'猛龙',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+},
+{
+name:'魔术',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+}]
+},
+{
+name:'76人',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+children:[{
+name:'76人',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+emphasis:{
+lable:{show:false},
+borderWith:0,
+},
+},
+{
+name:'篮网',
+value:4,
+symbol:'circle',
+itemStyle:{
+normal:{
+color:'#fa6900',
+lable:{
+show:true,
+postition: 'right',
+}
+}
+},
+}]
+}]
+}]
+}
+        
+]
+}
+]
+const table=[ 5,25,36,12,45,31];
+
+export default{
+    'GET /api/echarts/tree': data,
+    'GET /api/echarts/table': table,
+};
